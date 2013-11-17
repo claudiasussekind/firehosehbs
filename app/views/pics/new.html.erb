@@ -7,7 +7,8 @@
 	<%= simple_form_for @pic do |f| %>
 		
 <h2>
-		<%= f.input :lesson, :label => 'Yor latest lesson', :placeholder => '1,2, etc.'  %>
+		<%= f.input :lesson, :label => 'Your latest lesson', :placeholder => '1,2, etc.'  %>
+		<%= f.input :image, :label => 'Show it'  %>
 		<%= f.input :emotion, :label => 'How did you feel?', :placeholder => 'Stoked, Happy or Jazzed' %>
 		<%= f.input :learned, :label => 'What did you learn?', :placeholder => 'HTML5, CSS3, Rails, Github' %>
 
